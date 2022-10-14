@@ -206,9 +206,9 @@ public:
 };
 
 void main() {
-	Debtor d1("Guliyev", "Elchin", "StepIt", 800, "0507408448", true, "Akhmedli", 400);
-	Debtor d2("Aliyev", "Ilkin", "261 school", 500, "0553452314", false, "Xalglar", 15);
-	Debtor d3("Mansimov", "Farid", "Socar", 1500, "0502115676", false, "Nizami", 35);
+	Debtor d1("Elchin", "Guliyev", "StepIt", 800, "0507408448", true, "Akhmedli", 400);
+	Debtor d2("Ilkin", "Aliyev", "261 school", 500, "0553452314", false, "Xalglar", 0);
+	Debtor d3("Farid", "Mansimov", "Socar", 1500, "0502115676", true, "Nizami", 35);
 	Debtor* debtors = new Debtor[3]
 	{
 		d1,d2,d3
