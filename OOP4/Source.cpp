@@ -126,7 +126,7 @@ public:
 
 
 	void SetDebt(const int& debt) {
-		assert(debt > 0 && "debt should be more than 0");
+		assert(debt > -1 && "debt should be more than 0");
 		this->debt = debt;
 	}
 
